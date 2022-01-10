@@ -33,7 +33,7 @@ class GridViewNumberPage extends StatelessWidget {
       );
 
   Widget buildNumber(String number) => Container(
-        color: Colors.cyan,
+        color: Colors.teal,
         child: GridTile(
           child: Center(
             child: Text(
