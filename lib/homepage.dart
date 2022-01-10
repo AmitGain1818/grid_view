@@ -22,7 +22,7 @@ class GridViewNumberPage extends StatelessWidget {
           mainAxisSpacing: 8,
           crossAxisSpacing: 8,
         ),
-        padding: const EdgeInsets.all(4),
+        padding: const EdgeInsets.all(8),
         controller: controller,
         itemCount: numbers.length,
         itemBuilder: (context, index) {
